@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50159F3A1D5EC0160010E629 /* LeagueGothic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50159F371D5EC0160010E629 /* LeagueGothic-Regular.otf */; };
+		50159F3B1D5EC0160010E629 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50159F381D5EC0160010E629 /* MavenPro-Regular.ttf */; };
+		50159F3C1D5EC0160010E629 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50159F391D5EC0160010E629 /* MavenPro-Bold.ttf */; };
+		505483D71D5E54B6008D68CF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 505483D61D5E54B6008D68CF /* Game.m */; };
+		505483DA1D5E55C1008D68CF /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 505483D91D5E55C1008D68CF /* Team.m */; };
+		505483DD1D5E55E7008D68CF /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 505483DC1D5E55E7008D68CF /* Schedule.m */; };
+		505483E31D5E7C2A008D68CF /* NSDate+Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 505483E21D5E7C2A008D68CF /* NSDate+Match.m */; };
+		505483E71D5E957C008D68CF /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 505483E61D5E957C008D68CF /* XMLDictionary.m */; };
+		505483EA1D5EACDA008D68CF /* UIImage+Logo.m in Sources */ = {isa = PBXBuildFile; fileRef = 505483E91D5EACDA008D68CF /* UIImage+Logo.m */; };
+		50B682B31D5D5BFD00837DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B682B21D5D5BFD00837DF4 /* main.m */; };
+		50B682B61D5D5BFD00837DF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B682B51D5D5BFD00837DF4 /* AppDelegate.m */; };
+		50B682B91D5D5BFD00837DF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B682B81D5D5BFD00837DF4 /* ViewController.m */; };
+		50B682C11D5D5BFD00837DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B682C01D5D5BFD00837DF4 /* Assets.xcassets */; };
+		50B682CF1D5D5BFD00837DF4 /* ScheduleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B682CE1D5D5BFD00837DF4 /* ScheduleGameTests.m */; };
+		50B682DA1D5D5BFD00837DF4 /* ScheduleGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B682D91D5D5BFD00837DF4 /* ScheduleGameUITests.m */; };
+		50B6832C1D5D657600837DF4 /* ScheduledGameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B6832B1D5D657600837DF4 /* ScheduledGameTableViewCell.m */; };
+		50B6832F1D5D659100837DF4 /* FinishedGameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B6832E1D5D659100837DF4 /* FinishedGameTableViewCell.m */; };
+		50B683321D5D660800837DF4 /* ByeGameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B683311D5D660800837DF4 /* ByeGameTableViewCell.m */; };
+		50B683361D5D6B2F00837DF4 /* UIColor+TextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B683351D5D6B2F00837DF4 /* UIColor+TextColor.m */; };
+		50B683391D5D6B4700837DF4 /* UILabel+TextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B683381D5D6B4700837DF4 /* UILabel+TextLabel.m */; };
+		50B6833C1D5D6D4C00837DF4 /* UIFont+TextFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B6833B1D5D6D4C00837DF4 /* UIFont+TextFont.m */; };
+		50B683411D5E39A200837DF4 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B683401D5E39A200837DF4 /* NetworkManager.m */; };
+		6665D4BCCC2E821B3E9205AC /* libPods-ScheduleGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBD21B47993E9E7C9D1C56C /* libPods-ScheduleGame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B682CB1D5D5BFD00837DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B682A61D5D5BFD00837DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B682AD1D5D5BFD00837DF4;
+			remoteInfo = ScheduleGame;
+		};
+		50B682D61D5D5BFD00837DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B682A61D5D5BFD00837DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B682AD1D5D5BFD00837DF4;
+			remoteInfo = ScheduleGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CC0FB8A67EC2D25B0CB8A4 /* Pods-ScheduleGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScheduleGame/Pods-ScheduleGame.release.xcconfig"; sourceTree = "<group>"; };
+		4DBD21B47993E9E7C9D1C56C /* libPods-ScheduleGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScheduleGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50159F371D5EC0160010E629 /* LeagueGothic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueGothic-Regular.otf"; sourceTree = "<group>"; };
+		50159F381D5EC0160010E629 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
+		50159F391D5EC0160010E629 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
+		505483D51D5E54B6008D68CF /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		505483D61D5E54B6008D68CF /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		505483D81D5E55C1008D68CF /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		505483D91D5E55C1008D68CF /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		505483DB1D5E55E7008D68CF /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		505483DC1D5E55E7008D68CF /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		505483E11D5E7C2A008D68CF /* NSDate+Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Match.h"; sourceTree = "<group>"; };
+		505483E21D5E7C2A008D68CF /* NSDate+Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Match.m"; sourceTree = "<group>"; };
+		505483E51D5E957C008D68CF /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		505483E61D5E957C008D68CF /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		505483E81D5EACDA008D68CF /* UIImage+Logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Logo.h"; sourceTree = "<group>"; };
+		505483E91D5EACDA008D68CF /* UIImage+Logo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Logo.m"; sourceTree = "<group>"; };
+		50B682AE1D5D5BFD00837DF4 /* ScheduleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B682B21D5D5BFD00837DF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50B682B41D5D5BFD00837DF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50B682B51D5D5BFD00837DF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50B682B71D5D5BFD00837DF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50B682B81D5D5BFD00837DF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50B682C01D5D5BFD00837DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50B682C51D5D5BFD00837DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B682CA1D5D5BFD00837DF4 /* ScheduleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B682CE1D5D5BFD00837DF4 /* ScheduleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleGameTests.m; sourceTree = "<group>"; };
+		50B682D01D5D5BFD00837DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B682D51D5D5BFD00837DF4 /* ScheduleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B682D91D5D5BFD00837DF4 /* ScheduleGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleGameUITests.m; sourceTree = "<group>"; };
+		50B682DB1D5D5BFD00837DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B6832A1D5D657600837DF4 /* ScheduledGameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduledGameTableViewCell.h; sourceTree = "<group>"; };
+		50B6832B1D5D657600837DF4 /* ScheduledGameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduledGameTableViewCell.m; sourceTree = "<group>"; };
+		50B6832D1D5D659100837DF4 /* FinishedGameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishedGameTableViewCell.h; sourceTree = "<group>"; };
+		50B6832E1D5D659100837DF4 /* FinishedGameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishedGameTableViewCell.m; sourceTree = "<group>"; };
+		50B683301D5D660800837DF4 /* ByeGameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByeGameTableViewCell.h; sourceTree = "<group>"; };
+		50B683311D5D660800837DF4 /* ByeGameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByeGameTableViewCell.m; sourceTree = "<group>"; };
+		50B683341D5D6B2F00837DF4 /* UIColor+TextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TextColor.h"; sourceTree = "<group>"; };
+		50B683351D5D6B2F00837DF4 /* UIColor+TextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TextColor.m"; sourceTree = "<group>"; };
+		50B683371D5D6B4700837DF4 /* UILabel+TextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TextLabel.h"; sourceTree = "<group>"; };
+		50B683381D5D6B4700837DF4 /* UILabel+TextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TextLabel.m"; sourceTree = "<group>"; };
+		50B6833A1D5D6D4C00837DF4 /* UIFont+TextFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TextFont.h"; sourceTree = "<group>"; };
+		50B6833B1D5D6D4C00837DF4 /* UIFont+TextFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TextFont.m"; sourceTree = "<group>"; };
+		50B6833F1D5E39A200837DF4 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		50B683401D5E39A200837DF4 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		6BCF781F0183C54FEADFA885 /* Pods-ScheduleGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScheduleGame/Pods-ScheduleGame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B682AB1D5D5BFD00837DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6665D4BCCC2E821B3E9205AC /* libPods-ScheduleGame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B682C71D5D5BFD00837DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B682D21D5D5BFD00837DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138017E1F3564CA97CB8E3D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD21B47993E9E7C9D1C56C /* libPods-ScheduleGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48B164E99B6DDCD889E8487D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BCF781F0183C54FEADFA885 /* Pods-ScheduleGame.debug.xcconfig */,
+				04CC0FB8A67EC2D25B0CB8A4 /* Pods-ScheduleGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50159F3D1D5EC01E0010E629 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				50159F371D5EC0160010E629 /* LeagueGothic-Regular.otf */,
+				50159F381D5EC0160010E629 /* MavenPro-Regular.ttf */,
+				50159F391D5EC0160010E629 /* MavenPro-Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		505483E41D5E956C008D68CF /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				505483E51D5E957C008D68CF /* XMLDictionary.h */,
+				505483E61D5E957C008D68CF /* XMLDictionary.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		50B682A51D5D5BFD00837DF4 = {
+			isa = PBXGroup;
+			children = (
+				50B682B01D5D5BFD00837DF4 /* ScheduleGame */,
+				50B682CD1D5D5BFD00837DF4 /* ScheduleGameTests */,
+				50B682D81D5D5BFD00837DF4 /* ScheduleGameUITests */,
+				50B682AF1D5D5BFD00837DF4 /* Products */,
+				48B164E99B6DDCD889E8487D /* Pods */,
+				138017E1F3564CA97CB8E3D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50B682AF1D5D5BFD00837DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B682AE1D5D5BFD00837DF4 /* ScheduleGame.app */,
+				50B682CA1D5D5BFD00837DF4 /* ScheduleGameTests.xctest */,
+				50B682D51D5D5BFD00837DF4 /* ScheduleGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B682B01D5D5BFD00837DF4 /* ScheduleGame */ = {
+			isa = PBXGroup;
+			children = (
+				50B682B41D5D5BFD00837DF4 /* AppDelegate.h */,
+				50B682B51D5D5BFD00837DF4 /* AppDelegate.m */,
+				50B682B71D5D5BFD00837DF4 /* ViewController.h */,
+				50B682B81D5D5BFD00837DF4 /* ViewController.m */,
+				50B6833E1D5E398900837DF4 /* WebStore */,
+				50B6833D1D5E36B600837DF4 /* Models */,
+				50B683291D5D654100837DF4 /* TableVIewCell */,
+				50B683331D5D6B0A00837DF4 /* Categories */,
+				505483E41D5E956C008D68CF /* XMLParser */,
+				50159F3D1D5EC01E0010E629 /* Fonts */,
+				50B682C01D5D5BFD00837DF4 /* Assets.xcassets */,
+				50B682C51D5D5BFD00837DF4 /* Info.plist */,
+				50B682B11D5D5BFD00837DF4 /* Supporting Files */,
+			);
+			path = ScheduleGame;
+			sourceTree = "<group>";
+		};
+		50B682B11D5D5BFD00837DF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B682B21D5D5BFD00837DF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50B682CD1D5D5BFD00837DF4 /* ScheduleGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				50B682CE1D5D5BFD00837DF4 /* ScheduleGameTests.m */,
+				50B682D01D5D5BFD00837DF4 /* Info.plist */,
+			);
+			path = ScheduleGameTests;
+			sourceTree = "<group>";
+		};
+		50B682D81D5D5BFD00837DF4 /* ScheduleGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50B682D91D5D5BFD00837DF4 /* ScheduleGameUITests.m */,
+				50B682DB1D5D5BFD00837DF4 /* Info.plist */,
+			);
+			path = ScheduleGameUITests;
+			sourceTree = "<group>";
+		};
+		50B683291D5D654100837DF4 /* TableVIewCell */ = {
+			isa = PBXGroup;
+			children = (
+				50B6832A1D5D657600837DF4 /* ScheduledGameTableViewCell.h */,
+				50B6832B1D5D657600837DF4 /* ScheduledGameTableViewCell.m */,
+				50B6832D1D5D659100837DF4 /* FinishedGameTableViewCell.h */,
+				50B6832E1D5D659100837DF4 /* FinishedGameTableViewCell.m */,
+				50B683301D5D660800837DF4 /* ByeGameTableViewCell.h */,
+				50B683311D5D660800837DF4 /* ByeGameTableViewCell.m */,
+			);
+			name = TableVIewCell;
+			sourceTree = "<group>";
+		};
+		50B683331D5D6B0A00837DF4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				50B683341D5D6B2F00837DF4 /* UIColor+TextColor.h */,
+				50B683351D5D6B2F00837DF4 /* UIColor+TextColor.m */,
+				50B683371D5D6B4700837DF4 /* UILabel+TextLabel.h */,
+				50B683381D5D6B4700837DF4 /* UILabel+TextLabel.m */,
+				50B6833A1D5D6D4C00837DF4 /* UIFont+TextFont.h */,
+				50B6833B1D5D6D4C00837DF4 /* UIFont+TextFont.m */,
+				505483E11D5E7C2A008D68CF /* NSDate+Match.h */,
+				505483E21D5E7C2A008D68CF /* NSDate+Match.m */,
+				505483E81D5EACDA008D68CF /* UIImage+Logo.h */,
+				505483E91D5EACDA008D68CF /* UIImage+Logo.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		50B6833D1D5E36B600837DF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				505483D51D5E54B6008D68CF /* Game.h */,
+				505483D61D5E54B6008D68CF /* Game.m */,
+				505483D81D5E55C1008D68CF /* Team.h */,
+				505483D91D5E55C1008D68CF /* Team.m */,
+				505483DB1D5E55E7008D68CF /* Schedule.h */,
+				505483DC1D5E55E7008D68CF /* Schedule.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		50B6833E1D5E398900837DF4 /* WebStore */ = {
+			isa = PBXGroup;
+			children = (
+				50B6833F1D5E39A200837DF4 /* NetworkManager.h */,
+				50B683401D5E39A200837DF4 /* NetworkManager.m */,
+			);
+			name = WebStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B682AD1D5D5BFD00837DF4 /* ScheduleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B682DE1D5D5BFD00837DF4 /* Build configuration list for PBXNativeTarget "ScheduleGame" */;
+			buildPhases = (
+				FF5A400BE6D2869E1036813B /* [CP] Check Pods Manifest.lock */,
+				50B682AA1D5D5BFD00837DF4 /* Sources */,
+				50B682AB1D5D5BFD00837DF4 /* Frameworks */,
+				50B682AC1D5D5BFD00837DF4 /* Resources */,
+				044F657AF295C35076AD8A1F /* [CP] Embed Pods Frameworks */,
+				F75C5C55B31657F9A86021E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScheduleGame;
+			productName = ScheduleGame;
+			productReference = 50B682AE1D5D5BFD00837DF4 /* ScheduleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50B682C91D5D5BFD00837DF4 /* ScheduleGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B682E11D5D5BFD00837DF4 /* Build configuration list for PBXNativeTarget "ScheduleGameTests" */;
+			buildPhases = (
+				50B682C61D5D5BFD00837DF4 /* Sources */,
+				50B682C71D5D5BFD00837DF4 /* Frameworks */,
+				50B682C81D5D5BFD00837DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B682CC1D5D5BFD00837DF4 /* PBXTargetDependency */,
+			);
+			name = ScheduleGameTests;
+			productName = ScheduleGameTests;
+			productReference = 50B682CA1D5D5BFD00837DF4 /* ScheduleGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50B682D41D5D5BFD00837DF4 /* ScheduleGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B682E41D5D5BFD00837DF4 /* Build configuration list for PBXNativeTarget "ScheduleGameUITests" */;
+			buildPhases = (
+				50B682D11D5D5BFD00837DF4 /* Sources */,
+				50B682D21D5D5BFD00837DF4 /* Frameworks */,
+				50B682D31D5D5BFD00837DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B682D71D5D5BFD00837DF4 /* PBXTargetDependency */,
+			);
+			name = ScheduleGameUITests;
+			productName = ScheduleGameUITests;
+			productReference = 50B682D51D5D5BFD00837DF4 /* ScheduleGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B682A61D5D5BFD00837DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ravi Shah";
+				TargetAttributes = {
+					50B682AD1D5D5BFD00837DF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					50B682C91D5D5BFD00837DF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 50B682AD1D5D5BFD00837DF4;
+					};
+					50B682D41D5D5BFD00837DF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 50B682AD1D5D5BFD00837DF4;
+					};
+				};
+			};
+			buildConfigurationList = 50B682A91D5D5BFD00837DF4 /* Build configuration list for PBXProject "ScheduleGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50B682A51D5D5BFD00837DF4;
+			productRefGroup = 50B682AF1D5D5BFD00837DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B682AD1D5D5BFD00837DF4 /* ScheduleGame */,
+				50B682C91D5D5BFD00837DF4 /* ScheduleGameTests */,
+				50B682D41D5D5BFD00837DF4 /* ScheduleGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B682AC1D5D5BFD00837DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B682C11D5D5BFD00837DF4 /* Assets.xcassets in Resources */,
+				50159F3B1D5EC0160010E629 /* MavenPro-Regular.ttf in Resources */,
+				50159F3C1D5EC0160010E629 /* MavenPro-Bold.ttf in Resources */,
+				50159F3A1D5EC0160010E629 /* LeagueGothic-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B682C81D5D5BFD00837DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B682D31D5D5BFD00837DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044F657AF295C35076AD8A1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScheduleGame/Pods-ScheduleGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75C5C55B31657F9A86021E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScheduleGame/Pods-ScheduleGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5A400BE6D2869E1036813B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B682AA1D5D5BFD00837DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B6833C1D5D6D4C00837DF4 /* UIFont+TextFont.m in Sources */,
+				505483D71D5E54B6008D68CF /* Game.m in Sources */,
+				50B6832F1D5D659100837DF4 /* FinishedGameTableViewCell.m in Sources */,
+				50B682B91D5D5BFD00837DF4 /* ViewController.m in Sources */,
+				505483DA1D5E55C1008D68CF /* Team.m in Sources */,
+				505483E71D5E957C008D68CF /* XMLDictionary.m in Sources */,
+				505483EA1D5EACDA008D68CF /* UIImage+Logo.m in Sources */,
+				50B683361D5D6B2F00837DF4 /* UIColor+TextColor.m in Sources */,
+				505483E31D5E7C2A008D68CF /* NSDate+Match.m in Sources */,
+				50B682B61D5D5BFD00837DF4 /* AppDelegate.m in Sources */,
+				50B683391D5D6B4700837DF4 /* UILabel+TextLabel.m in Sources */,
+				50B682B31D5D5BFD00837DF4 /* main.m in Sources */,
+				505483DD1D5E55E7008D68CF /* Schedule.m in Sources */,
+				50B683321D5D660800837DF4 /* ByeGameTableViewCell.m in Sources */,
+				50B683411D5E39A200837DF4 /* NetworkManager.m in Sources */,
+				50B6832C1D5D657600837DF4 /* ScheduledGameTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B682C61D5D5BFD00837DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B682CF1D5D5BFD00837DF4 /* ScheduleGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B682D11D5D5BFD00837DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B682DA1D5D5BFD00837DF4 /* ScheduleGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50B682CC1D5D5BFD00837DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B682AD1D5D5BFD00837DF4 /* ScheduleGame */;
+			targetProxy = 50B682CB1D5D5BFD00837DF4 /* PBXContainerItemProxy */;
+		};
+		50B682D71D5D5BFD00837DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B682AD1D5D5BFD00837DF4 /* ScheduleGame */;
+			targetProxy = 50B682D61D5D5BFD00837DF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50B682DC1D5D5BFD00837DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50B682DD1D5D5BFD00837DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B682DF1D5D5BFD00837DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BCF781F0183C54FEADFA885 /* Pods-ScheduleGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ScheduleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50B682E01D5D5BFD00837DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CC0FB8A67EC2D25B0CB8A4 /* Pods-ScheduleGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ScheduleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50B682E21D5D5BFD00837DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScheduleGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ScheduleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleGame.app/ScheduleGame";
+			};
+			name = Debug;
+		};
+		50B682E31D5D5BFD00837DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScheduleGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ScheduleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleGame.app/ScheduleGame";
+			};
+			name = Release;
+		};
+		50B682E51D5D5BFD00837DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScheduleGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ScheduleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScheduleGame;
+			};
+			name = Debug;
+		};
+		50B682E61D5D5BFD00837DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScheduleGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.ScheduleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScheduleGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B682A91D5D5BFD00837DF4 /* Build configuration list for PBXProject "ScheduleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B682DC1D5D5BFD00837DF4 /* Debug */,
+				50B682DD1D5D5BFD00837DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B682DE1D5D5BFD00837DF4 /* Build configuration list for PBXNativeTarget "ScheduleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B682DF1D5D5BFD00837DF4 /* Debug */,
+				50B682E01D5D5BFD00837DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B682E11D5D5BFD00837DF4 /* Build configuration list for PBXNativeTarget "ScheduleGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B682E21D5D5BFD00837DF4 /* Debug */,
+				50B682E31D5D5BFD00837DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B682E41D5D5BFD00837DF4 /* Build configuration list for PBXNativeTarget "ScheduleGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B682E51D5D5BFD00837DF4 /* Debug */,
+				50B682E61D5D5BFD00837DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B682A61D5D5BFD00837DF4 /* Project object */;
+}

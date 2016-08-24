@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031E44C52878479F7B4D186F4EB78AE0 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 624772E1290F503E8FB54725E141279E /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C7C706F937094D01A3BAD59F69471F3 /* JTDataMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D264D8164538E28E0441F25FA0B2ABF /* JTDataMappings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2DB77CD00EBA75A3BEB348C859D739B2 /* JTURLMappings.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B5B0AF04DCB3DF322EE1B1FE9EA1C5 /* JTURLMappings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FED845891389AF1A8CB7A35911741B5 /* JTObjectMapping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 596718DA1ABD8277260C09688705BF8E /* JTObjectMapping-dummy.m */; };
+		36ECA3E2A85ECD2F2F74A3E79742C0EF /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B219D2189AFA1A58C956EB66C6862592 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4C4F0613B4A4113CBD3EBADD235DF269 /* GDataXML-HTML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FCCB85D8F15D49DBB9FE6B457F7D5 /* GDataXML-HTML-dummy.m */; };
+		68F68EA5955A6B0DB2DFB4FF36893180 /* JTValidMappingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F80AD6A5E6B83A650AC1DCACEA2521 /* JTValidMappingKey.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76989CBF29BC2DE723817FE44EFBCE87 /* JTDateMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = 144BEBAF4B0385110B79BAFBC9E0C4A3 /* JTDateMappings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901DE40C86B700449EA19E64A582660 /* JTURLMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = A13F855C67EDF22B39F363DE7E71A8A3 /* JTURLMappings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8A757326655AD59F6116E23C682CD0C0 /* NSObject+JTObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E20D7D3792DCF2CD98AB7ECD5EB8868 /* NSObject+JTObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3156E7018C398C29546130B34F274E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		91FB0B726327101EABE99B5250B30235 /* JTMappings.h in Headers */ = {isa = PBXBuildFile; fileRef = DF51ABD02202E7484F77073E01C76138 /* JTMappings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9F47B2C1E98850AF85B94A7B9D3F572 /* Pods-ScheduleGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A90950744870D6651FA4B0B851B0E /* Pods-ScheduleGame-dummy.m */; };
+		B03C2B9177AD739BA119F200F2777C29 /* JTValidMappingKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 7885B373F4BC0C2BCC09A8092E18097E /* JTValidMappingKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCDC76B4BBBA1E03BED4728AAB8C393F /* JTSetMappings.h in Headers */ = {isa = PBXBuildFile; fileRef = 964A342C67974AC2E49EFB372FAE2FC5 /* JTSetMappings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0342B6B830445FC495348E5970D955D /* NSObject+JTObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB618DC4647EECF4559C096C99C1AF /* NSObject+JTObjectMapping.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D379853E84F85A75334D7690F6461E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D98BB48B67E387EF6452C47D79C21C73 /* JTSetMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = 165AA86021C60EC95CE00C79BC99BC43 /* JTSetMappings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E1B37EF2567BE8FCDD657D2FBB965BC2 /* JTDateMappings.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5B5D07DA179CDAAE425C89A1917EBA /* JTDateMappings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76CD7F5FF3AFE12D965811440E058CE /* JTDataMappings.h in Headers */ = {isa = PBXBuildFile; fileRef = 7557ADB181D58C1D25E388AAA6FE33DC /* JTDataMappings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD079C0BA3DA473DFACB165EB8D15C7 /* JTMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F79CF001ED120649CA775DDE8EFB9D /* JTMappings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F7375F25BA5F7B4AFD21D230BE769B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4054BD90062A6FA64B1FE7D6D1F85CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD535B066B966192DD50EEA4E9327D1;
+			remoteInfo = JTObjectMapping;
+		};
+		461468928B526E4A25686529CD439D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661266EBD6EA604C675CD4D5D02CF971;
+			remoteInfo = "GDataXML-HTML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E5B5D07DA179CDAAE425C89A1917EBA /* JTDateMappings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTDateMappings.h; path = JTObjectMapping/Source/JTDateMappings.h; sourceTree = "<group>"; };
+		144BEBAF4B0385110B79BAFBC9E0C4A3 /* JTDateMappings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTDateMappings.m; path = JTObjectMapping/Source/JTDateMappings.m; sourceTree = "<group>"; };
+		165AA86021C60EC95CE00C79BC99BC43 /* JTSetMappings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTSetMappings.m; path = JTObjectMapping/Source/JTSetMappings.m; sourceTree = "<group>"; };
+		21F79CF001ED120649CA775DDE8EFB9D /* JTMappings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTMappings.m; path = JTObjectMapping/Source/JTMappings.m; sourceTree = "<group>"; };
+		27B5B0AF04DCB3DF322EE1B1FE9EA1C5 /* JTURLMappings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTURLMappings.h; path = JTObjectMapping/Source/JTURLMappings.h; sourceTree = "<group>"; };
+		2E20D7D3792DCF2CD98AB7ECD5EB8868 /* NSObject+JTObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JTObjectMapping.h"; path = "JTObjectMapping/Source/NSObject+JTObjectMapping.h"; sourceTree = "<group>"; };
+		37DEB75A8FE8D3520C896AC078F1BD33 /* libJTObjectMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTObjectMapping.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D264D8164538E28E0441F25FA0B2ABF /* JTDataMappings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTDataMappings.m; path = JTObjectMapping/Source/JTDataMappings.m; sourceTree = "<group>"; };
+		4065AE4B441F19BF6E218373D96E39F8 /* GDataXML-HTML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GDataXML-HTML.xcconfig"; sourceTree = "<group>"; };
+		543B26CC5B7640AEAF510D16B62D9B63 /* Pods-ScheduleGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScheduleGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		554FCCB85D8F15D49DBB9FE6B457F7D5 /* GDataXML-HTML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDataXML-HTML-dummy.m"; sourceTree = "<group>"; };
+		596718DA1ABD8277260C09688705BF8E /* JTObjectMapping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTObjectMapping-dummy.m"; sourceTree = "<group>"; };
+		5FE6F56D47EA9B316E35FD74C8AF3C3C /* Pods-ScheduleGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScheduleGame-frameworks.sh"; sourceTree = "<group>"; };
+		624772E1290F503E8FB54725E141279E /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Pod/Classes/GDataXMLNode.h; sourceTree = "<group>"; };
+		65846F35CD214D42A26D1C9C9409C537 /* libPods-ScheduleGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScheduleGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7557ADB181D58C1D25E388AAA6FE33DC /* JTDataMappings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTDataMappings.h; path = JTObjectMapping/Source/JTDataMappings.h; sourceTree = "<group>"; };
+		77F80AD6A5E6B83A650AC1DCACEA2521 /* JTValidMappingKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTValidMappingKey.m; path = JTObjectMapping/Source/JTValidMappingKey.m; sourceTree = "<group>"; };
+		7885B373F4BC0C2BCC09A8092E18097E /* JTValidMappingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTValidMappingKey.h; path = JTObjectMapping/Source/JTValidMappingKey.h; sourceTree = "<group>"; };
+		7AEBDE957F1DC63E9E06C0EC76864C7D /* JTObjectMapping.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTObjectMapping.xcconfig; sourceTree = "<group>"; };
+		805F4CF7CD6FB49BD8306981820238C9 /* GDataXML-HTML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDataXML-HTML-prefix.pch"; sourceTree = "<group>"; };
+		836D31460613F56DD6F099FBAF8CF68D /* Pods-ScheduleGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScheduleGame-resources.sh"; sourceTree = "<group>"; };
+		901A90950744870D6651FA4B0B851B0E /* Pods-ScheduleGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScheduleGame-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964A342C67974AC2E49EFB372FAE2FC5 /* JTSetMappings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSetMappings.h; path = JTObjectMapping/Source/JTSetMappings.h; sourceTree = "<group>"; };
+		9FDB618DC4647EECF4559C096C99C1AF /* NSObject+JTObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JTObjectMapping.m"; path = "JTObjectMapping/Source/NSObject+JTObjectMapping.m"; sourceTree = "<group>"; };
+		A09B696537012401D9C5323F12C285F8 /* Pods-ScheduleGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScheduleGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		A13F855C67EDF22B39F363DE7E71A8A3 /* JTURLMappings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTURLMappings.m; path = JTObjectMapping/Source/JTURLMappings.m; sourceTree = "<group>"; };
+		AABD02C23F015E5B3FE76474910661EE /* libGDataXML-HTML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGDataXML-HTML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B219D2189AFA1A58C956EB66C6862592 /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Pod/Classes/GDataXMLNode.m; sourceTree = "<group>"; };
+		B275B16A350A9557327737A0BCC13CD1 /* Pods-ScheduleGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScheduleGame.release.xcconfig"; sourceTree = "<group>"; };
+		C68B013D3DBB46A3642537696DAE8DA7 /* Pods-ScheduleGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScheduleGame.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF51ABD02202E7484F77073E01C76138 /* JTMappings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTMappings.h; path = JTObjectMapping/Source/JTMappings.h; sourceTree = "<group>"; };
+		F4767DA0C3772C5F4E6B35DECBCC4DAC /* JTObjectMapping-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTObjectMapping-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC0199AEC12FD3E0C327404C9B2FA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3156E7018C398C29546130B34F274E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A17B416BF424BF7BF90C990C4EF7E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7375F25BA5F7B4AFD21D230BE769B7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E29B9724901D2AC01A9513BEEEF4F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D379853E84F85A75334D7690F6461E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4E542E6FF2DA06BAB2684EE7277A9320 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4065AE4B441F19BF6E218373D96E39F8 /* GDataXML-HTML.xcconfig */,
+				554FCCB85D8F15D49DBB9FE6B457F7D5 /* GDataXML-HTML-dummy.m */,
+				805F4CF7CD6FB49BD8306981820238C9 /* GDataXML-HTML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GDataXML-HTML";
+			sourceTree = "<group>";
+		};
+		52050990200F3ABE81BFD48E66247B45 /* JTObjectMapping */ = {
+			isa = PBXGroup;
+			children = (
+				7557ADB181D58C1D25E388AAA6FE33DC /* JTDataMappings.h */,
+				3D264D8164538E28E0441F25FA0B2ABF /* JTDataMappings.m */,
+				0E5B5D07DA179CDAAE425C89A1917EBA /* JTDateMappings.h */,
+				144BEBAF4B0385110B79BAFBC9E0C4A3 /* JTDateMappings.m */,
+				DF51ABD02202E7484F77073E01C76138 /* JTMappings.h */,
+				21F79CF001ED120649CA775DDE8EFB9D /* JTMappings.m */,
+				964A342C67974AC2E49EFB372FAE2FC5 /* JTSetMappings.h */,
+				165AA86021C60EC95CE00C79BC99BC43 /* JTSetMappings.m */,
+				27B5B0AF04DCB3DF322EE1B1FE9EA1C5 /* JTURLMappings.h */,
+				A13F855C67EDF22B39F363DE7E71A8A3 /* JTURLMappings.m */,
+				7885B373F4BC0C2BCC09A8092E18097E /* JTValidMappingKey.h */,
+				77F80AD6A5E6B83A650AC1DCACEA2521 /* JTValidMappingKey.m */,
+				2E20D7D3792DCF2CD98AB7ECD5EB8868 /* NSObject+JTObjectMapping.h */,
+				9FDB618DC4647EECF4559C096C99C1AF /* NSObject+JTObjectMapping.m */,
+				CB24BB825240246D0811CC94C04A21E2 /* Support Files */,
+			);
+			path = JTObjectMapping;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CF88AA0938D3AB0A756260C3A1950E13 /* Pods */,
+				BC746FB62BDD8457381EF3C2EF52C7EB /* Products */,
+				E25CE3865285023B27B2FFC2CFD00175 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E0BCE60B9A08DBE9A8933D02A4B0270 /* Pods-ScheduleGame */ = {
+			isa = PBXGroup;
+			children = (
+				543B26CC5B7640AEAF510D16B62D9B63 /* Pods-ScheduleGame-acknowledgements.markdown */,
+				A09B696537012401D9C5323F12C285F8 /* Pods-ScheduleGame-acknowledgements.plist */,
+				901A90950744870D6651FA4B0B851B0E /* Pods-ScheduleGame-dummy.m */,
+				5FE6F56D47EA9B316E35FD74C8AF3C3C /* Pods-ScheduleGame-frameworks.sh */,
+				836D31460613F56DD6F099FBAF8CF68D /* Pods-ScheduleGame-resources.sh */,
+				C68B013D3DBB46A3642537696DAE8DA7 /* Pods-ScheduleGame.debug.xcconfig */,
+				B275B16A350A9557327737A0BCC13CD1 /* Pods-ScheduleGame.release.xcconfig */,
+			);
+			name = "Pods-ScheduleGame";
+			path = "Target Support Files/Pods-ScheduleGame";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC746FB62BDD8457381EF3C2EF52C7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABD02C23F015E5B3FE76474910661EE /* libGDataXML-HTML.a */,
+				37DEB75A8FE8D3520C896AC078F1BD33 /* libJTObjectMapping.a */,
+				65846F35CD214D42A26D1C9C9409C537 /* libPods-ScheduleGame.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB24BB825240246D0811CC94C04A21E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AEBDE957F1DC63E9E06C0EC76864C7D /* JTObjectMapping.xcconfig */,
+				596718DA1ABD8277260C09688705BF8E /* JTObjectMapping-dummy.m */,
+				F4767DA0C3772C5F4E6B35DECBCC4DAC /* JTObjectMapping-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTObjectMapping";
+			sourceTree = "<group>";
+		};
+		CDDCF3AA9D3DB48EC948D48FE80BDC53 /* GDataXML-HTML */ = {
+			isa = PBXGroup;
+			children = (
+				624772E1290F503E8FB54725E141279E /* GDataXMLNode.h */,
+				B219D2189AFA1A58C956EB66C6862592 /* GDataXMLNode.m */,
+				4E542E6FF2DA06BAB2684EE7277A9320 /* Support Files */,
+			);
+			path = "GDataXML-HTML";
+			sourceTree = "<group>";
+		};
+		CF88AA0938D3AB0A756260C3A1950E13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDDCF3AA9D3DB48EC948D48FE80BDC53 /* GDataXML-HTML */,
+				52050990200F3ABE81BFD48E66247B45 /* JTObjectMapping */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E25CE3865285023B27B2FFC2CFD00175 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E0BCE60B9A08DBE9A8933D02A4B0270 /* Pods-ScheduleGame */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50AF599ED1F9F7FDF1A11B9D2462DFA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031E44C52878479F7B4D186F4EB78AE0 /* GDataXMLNode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91B05815E4A90286781C2FD659C84AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76CD7F5FF3AFE12D965811440E058CE /* JTDataMappings.h in Headers */,
+				E1B37EF2567BE8FCDD657D2FBB965BC2 /* JTDateMappings.h in Headers */,
+				91FB0B726327101EABE99B5250B30235 /* JTMappings.h in Headers */,
+				CCDC76B4BBBA1E03BED4728AAB8C393F /* JTSetMappings.h in Headers */,
+				2DB77CD00EBA75A3BEB348C859D739B2 /* JTURLMappings.h in Headers */,
+				B03C2B9177AD739BA119F200F2777C29 /* JTValidMappingKey.h in Headers */,
+				8A757326655AD59F6116E23C682CD0C0 /* NSObject+JTObjectMapping.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DD535B066B966192DD50EEA4E9327D1 /* JTObjectMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBC9EEEC453FAE44B4A174E6E973D80 /* Build configuration list for PBXNativeTarget "JTObjectMapping" */;
+			buildPhases = (
+				5E5E6E60091465442BFDADD00337E4D4 /* Sources */,
+				4A17B416BF424BF7BF90C990C4EF7E80 /* Frameworks */,
+				B91B05815E4A90286781C2FD659C84AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTObjectMapping;
+			productName = JTObjectMapping;
+			productReference = 37DEB75A8FE8D3520C896AC078F1BD33 /* libJTObjectMapping.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		661266EBD6EA604C675CD4D5D02CF971 /* GDataXML-HTML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6150C6199A0BA542D8504688A6FB122 /* Build configuration list for PBXNativeTarget "GDataXML-HTML" */;
+			buildPhases = (
+				D7296E877E3C3C3D0CF0D4D0EF6ACD64 /* Sources */,
+				8E29B9724901D2AC01A9513BEEEF4F8E /* Frameworks */,
+				50AF599ED1F9F7FDF1A11B9D2462DFA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GDataXML-HTML";
+			productName = "GDataXML-HTML";
+			productReference = AABD02C23F015E5B3FE76474910661EE /* libGDataXML-HTML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE386CDEF2731EF2D060E7773636D28F /* Pods-ScheduleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAFE4141C924A2D1B75ADD9D6C05B03 /* Build configuration list for PBXNativeTarget "Pods-ScheduleGame" */;
+			buildPhases = (
+				CDB5BBEF29F969F7D0A03144B3F6C053 /* Sources */,
+				0CC0199AEC12FD3E0C327404C9B2FA06 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D9F0D1BE6A79B351052CA44F1B3F70C /* PBXTargetDependency */,
+				899FFDE5C38B4AA2861C6C510826F61B /* PBXTargetDependency */,
+			);
+			name = "Pods-ScheduleGame";
+			productName = "Pods-ScheduleGame";
+			productReference = 65846F35CD214D42A26D1C9C9409C537 /* libPods-ScheduleGame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC746FB62BDD8457381EF3C2EF52C7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661266EBD6EA604C675CD4D5D02CF971 /* GDataXML-HTML */,
+				1DD535B066B966192DD50EEA4E9327D1 /* JTObjectMapping */,
+				EE386CDEF2731EF2D060E7773636D28F /* Pods-ScheduleGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5E6E60091465442BFDADD00337E4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7C706F937094D01A3BAD59F69471F3 /* JTDataMappings.m in Sources */,
+				76989CBF29BC2DE723817FE44EFBCE87 /* JTDateMappings.m in Sources */,
+				EDD079C0BA3DA473DFACB165EB8D15C7 /* JTMappings.m in Sources */,
+				2FED845891389AF1A8CB7A35911741B5 /* JTObjectMapping-dummy.m in Sources */,
+				D98BB48B67E387EF6452C47D79C21C73 /* JTSetMappings.m in Sources */,
+				7901DE40C86B700449EA19E64A582660 /* JTURLMappings.m in Sources */,
+				68F68EA5955A6B0DB2DFB4FF36893180 /* JTValidMappingKey.m in Sources */,
+				D0342B6B830445FC495348E5970D955D /* NSObject+JTObjectMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB5BBEF29F969F7D0A03144B3F6C053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F47B2C1E98850AF85B94A7B9D3F572 /* Pods-ScheduleGame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7296E877E3C3C3D0CF0D4D0EF6ACD64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4F0613B4A4113CBD3EBADD235DF269 /* GDataXML-HTML-dummy.m in Sources */,
+				36ECA3E2A85ECD2F2F74A3E79742C0EF /* GDataXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D9F0D1BE6A79B351052CA44F1B3F70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GDataXML-HTML";
+			target = 661266EBD6EA604C675CD4D5D02CF971 /* GDataXML-HTML */;
+			targetProxy = 461468928B526E4A25686529CD439D62 /* PBXContainerItemProxy */;
+		};
+		899FFDE5C38B4AA2861C6C510826F61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTObjectMapping;
+			target = 1DD535B066B966192DD50EEA4E9327D1 /* JTObjectMapping */;
+			targetProxy = 4054BD90062A6FA64B1FE7D6D1F85CE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		18DEF4522EC946131C9A1BC40E6B87D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEBDE957F1DC63E9E06C0EC76864C7D /* JTObjectMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTObjectMapping/JTObjectMapping-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1D5347CB8CA6BD8CED4679F7DC3FF797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEBDE957F1DC63E9E06C0EC76864C7D /* JTObjectMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTObjectMapping/JTObjectMapping-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		216F27CD82BFFC1FE8BE41AA9E89B7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B275B16A350A9557327737A0BCC13CD1 /* Pods-ScheduleGame.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		72D1EA18AC2BA1311040FEDF80406036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4065AE4B441F19BF6E218373D96E39F8 /* GDataXML-HTML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GDataXML-HTML/GDataXML-HTML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E62AEDF14A7B7330513BCC7A1BC27E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68B013D3DBB46A3642537696DAE8DA7 /* Pods-ScheduleGame.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7D1D2DD0048E5ACAAEF4BA59757EFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4065AE4B441F19BF6E218373D96E39F8 /* GDataXML-HTML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GDataXML-HTML/GDataXML-HTML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAFE4141C924A2D1B75ADD9D6C05B03 /* Build configuration list for PBXNativeTarget "Pods-ScheduleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62AEDF14A7B7330513BCC7A1BC27E69 /* Debug */,
+				216F27CD82BFFC1FE8BE41AA9E89B7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBC9EEEC453FAE44B4A174E6E973D80 /* Build configuration list for PBXNativeTarget "JTObjectMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5347CB8CA6BD8CED4679F7DC3FF797 /* Debug */,
+				18DEF4522EC946131C9A1BC40E6B87D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6150C6199A0BA542D8504688A6FB122 /* Build configuration list for PBXNativeTarget "GDataXML-HTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D1D2DD0048E5ACAAEF4BA59757EFB0 /* Debug */,
+				72D1EA18AC2BA1311040FEDF80406036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
